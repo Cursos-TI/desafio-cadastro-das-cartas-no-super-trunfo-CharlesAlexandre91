@@ -7,6 +7,34 @@
 //Teste larissa
 
 int main() {
+    int Pontos = 35;
+    int Populacao = 25;
+    float Area = 1.750000;
+    double pib = 1123467;
+    char inicial = 'C';
+    char nome[20] = "Ceará";
+
+    printf("Populacao: %d Milhoes\n", Populacao);
+    printf("Área em KM²: %.2f Milhoes de KM²\n", Area);
+    printf("Pib de: %.2f reais\n", pib);
+    printf("Inicial do Nome: %c\n", inicial);
+    printf("Nome: %s\n", nome);
+    printf("Pontos: %d Número de pontos Turísticos \n", Pontos);
+
+    Pontos = 55;
+    Populacao = 10;
+    Area = 0.0087;
+    pib = 9234567;
+    inicial = 'B';
+    sprintf(nome, "Brasilia");
+
+    printf("Populacao: %d Milhoes\n", Populacao);
+    printf("Área em KM²: %.4f Milhoes de KM²\n", Area);
+    printf("Pib de: %.2f reais\n", pib);
+    printf("Inicial do Nome: %c\n", inicial);
+    printf("Nome: %s\n", nome);
+    printf("Pontos: %d Número de pontos Turísticos \n", Pontos);
+
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
     
